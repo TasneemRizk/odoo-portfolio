@@ -1,0 +1,7 @@
+Placeholder — capture three screenshots from a fresh demo Odoo 18 instance:
+  01-sheet-list.png          Monthly list view of flex attendance sheets
+  02-sheet-form.png          Daily form showing expected/worked/leave/deducted
+  03-halfday-edge-case.png   Before/after view demonstrating the bug fix
+
+Use the demo data shipped with the module (3 employees × 7 days).
+Never use a production instance or real employee names.

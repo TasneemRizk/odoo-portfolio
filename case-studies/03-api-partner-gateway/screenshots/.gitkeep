@@ -1,0 +1,7 @@
+Placeholder — capture three screenshots from a fresh demo Odoo 18 instance:
+  01-api-tokens.png       Backend list of issued tokens with expiry and last-used
+  02-postman-call.png     Postman call to GET /api/v1/partners with Bearer token
+  03-error-envelope.png   Structured 401 response when token is expired
+
+Use the demo data shipped with the module.
+Redact any real URLs, tokens, or identifiers before capturing.

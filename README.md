@@ -19,8 +19,8 @@ Read the full background in [`about.md`](./about.md).
 | # | Case Study | Stack | Topic |
 |---|---|---|---|
 | 01 | [POS Per-Line Salesperson Tracking](./case-studies/01-pos-salesperson-tracking/) | Odoo 19 · Python · OWL JS | Per-line attribution in POS for commission tracking |
-| 02 | _Half-Day Leave × Flexible Hours_ — coming soon | Odoo 18 · Python | Timezone-aware leave interval bug in attendance sheet |
-| 03 | _Partner Sync REST Gateway_ — coming soon | Odoo 18 · Python · HTTP | Token-authenticated REST endpoints for external sync |
+| 02 | [Half-Day Leave × Flexible Hours](./case-studies/02-hr-flexible-attendance/) | Odoo 18 · Python | Timezone-aware leave interval bug in attendance sheet |
+| 03 | [Partner Sync REST Gateway](./case-studies/03-api-partner-gateway/) | Odoo 18 · Python · HTTP | Token-authenticated REST endpoints for external sync |
 
 Each case study contains:
 - **README** — narrative of the problem and the engineering decisions.
