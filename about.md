@@ -41,5 +41,5 @@ The four case studies in this repo are the kind of problems I actually get hande
 
 ## Contact
 
-- LinkedIn: _add your profile link here_
+- LinkedIn: [Tasneem Rezk](https://www.linkedin.com/in/tasneem-rezk/)
 - GitHub: [TasneemRizk](https://github.com/TasneemRizk)
