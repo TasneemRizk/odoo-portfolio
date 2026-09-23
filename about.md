@@ -12,6 +12,7 @@ I build and maintain Odoo customizations for medium-to-large operational deploym
 - **POS Customization** — order line extension, OWL component patching, receipt customization, salesperson attribution.
 - **Multi-Version Migration** — Odoo 14 → 15 → 16 → 17 → 18 → 19, including breaking-API adaptation (`attrs` removal, `<tree>` → `<list>`, OWL3 migration).
 - **Operational Reporting** — QWeb PDF, Excel (xlsxwriter / openpyxl), wizards.
+- **Third-Party & Regulatory Integrations** — OAuth2/token-authenticated outbound gateways, idempotent retry design, multi-entity data reporting to external and government platforms.
 
 ## Technical Stack
 
