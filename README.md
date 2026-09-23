@@ -1,16 +1,10 @@
 # Odoo Engineering Portfolio — Tasneem Rezk
 
-Hands-on case studies from real Odoo engineering work across **HR, POS, and integrations**, distilled into the **problem → constraints → solution → insight** format.
+Hands-on case studies from real Odoo engineering work across **HR, POS, and integrations**, distilled into the **problem → constraints → decisions → what I learned** format.
 
-> This repo is intentionally **case studies, not source code**. Full working modules are kept in a private companion repo and shared on request during interviews.
+> This repo is intentionally **case studies, not source code**. See [Want to See the Full Code?](#want-to-see-the-full-code) below for what's shared and what isn't.
 
----
-
-## About
-
-Odoo Developer with 3+ years of experience customizing Odoo across versions 14 → 19. Track record of **500+ delivered tasks** for **30+ clients** across HR/Payroll, POS customization, multi-version migrations, and operational reporting.
-
-Read the full background in [`about.md`](./about.md).
+Odoo Developer, 3+ years, 500+ delivered tasks across 30+ clients, Odoo 14 → 19. Full background, stack, and engineering principles in [`about.md`](./about.md).
 
 ---
 
@@ -27,8 +21,7 @@ Each case study contains:
 - **README** — narrative of the problem and the engineering decisions.
 - **architecture.md** — Mermaid diagram of the data flow / components.
 - **snippets.md** — small illustrative code extracts (5–10 lines, intentionally incomplete).
-- **screenshots/** — UI captures from a fresh demo Odoo instance.
-- **demo.gif** — short walkthrough.
+- **screenshots/** — UI captures, where available (currently case 04; cases 01–03 have the folder scaffolded but not yet filled in).
 
 ---
 
@@ -38,7 +31,7 @@ The complete, runnable modules for cases 01–03 live in a private companion rep
 
 Case 04 is based on a real production integration for a real client, reporting to a live government platform — the full source isn't shared even privately, but I'm glad to walk through its architecture and decisions live.
 
-📩 Contact: open a GitHub issue or reach out via LinkedIn.
+📩 Contact: open a GitHub issue, or reach out via [LinkedIn](https://www.linkedin.com/in/tasneem-rezk/).
 
 ---
 
