@@ -96,7 +96,7 @@ See [`snippets.md`](./snippets.md) for extracts showing the computed-field shape
 | ![Form](./screenshots/02-sheet-form.png) | One day's detail with expected/worked/leave/deducted breakdown |
 | ![Edge case](./screenshots/03-halfday-edge-case.png) | Before/after comparison on the specific half-day bug scenario |
 
-🎬 [`demo.gif`](./demo.gif) — 15 sec: open sheet → show wrong legacy value → apply policy with fix → show correct 4h deduction.
+The list and form are from the module running on Odoo 18 with fictional employees; Bob Demo on 11 March has a real approved half-day leave. The comparison image recomputes the same day with the legacy formula.
 
 ---
 

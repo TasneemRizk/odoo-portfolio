@@ -104,10 +104,10 @@ See [`snippets.md`](./snippets.md) for the route + decorator + envelope shape.
 | Screenshot | What it shows |
 |---|---|
 | ![Tokens](./screenshots/01-api-tokens.png) | Backend list of issued tokens with expiry and usage stats |
-| ![Postman](./screenshots/02-postman-call.png) | Postman call to `GET /api/v1/partners` with Bearer token |
-| ![Error](./screenshots/03-error-envelope.png) | Structured 401 response when the token is expired |
+| ![curl call](./screenshots/02-curl-call.png) | `curl` call to `GET /api/v1/partners` with a Bearer token, and the JSON envelope it returns |
+| ![Error](./screenshots/03-error-envelope.png) | Structured 401 response when the token is revoked or expired |
 
-🎬 [`demo.gif`](./demo.gif) — 20 sec: issue a token in the Odoo UI → curl the endpoint → receive the JSON envelope → revoke the token → curl again → 401.
+The calls are real requests against the module running on Odoo 18; the token value is hidden.
 
 ---
 
@@ -124,4 +124,4 @@ Two takeaways:
 
 ## Want the Full Code?
 
-Complete module — including the full test suite, Postman collection, and OpenAPI-style docs — is in the private companion repo. **Available on request for interview context.**
+Complete module — including the full test suite — is in the private companion repo. **Available on request for interview context.**

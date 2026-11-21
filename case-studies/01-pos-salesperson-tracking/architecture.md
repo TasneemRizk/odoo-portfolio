@@ -19,7 +19,7 @@ flowchart TD
         E --> H[SalespersonSelector<br/>OWL Component]
         G --> H
         H -->|writes via patched setter| I[PosOrderline<br/>JS model + sale_person_id]
-        I -->|t-inherit reactive| J[OrderlineReceipt template]
+        I -->|t-inherit reactive| J[Orderline template<br/>mode receipt]
     end
 
     I -.->|persisted on session close| D
@@ -41,7 +41,7 @@ sequenceDiagram
     actor Cashier
     participant Selector as SalespersonSelector (OWL)
     participant Line as PosOrderline (JS model)
-    participant Receipt as OrderlineReceipt template
+    participant Receipt as Orderline template (receipt mode)
     participant Server as Odoo Server
 
     Cashier->>Selector: Click salesperson dropdown

@@ -23,7 +23,7 @@ Each case study contains:
 - **README** — narrative of the problem and the engineering decisions.
 - **architecture.md** — Mermaid diagram of the data flow / components.
 - **snippets.md** — small illustrative code extracts (5–10 lines, intentionally incomplete).
-- **screenshots/** — UI captures or concept images, where available (cases 04–06; cases 01–03 have the folder scaffolded but not yet filled in).
+- **screenshots/** — UI captures from the modules running on a fresh database (cases 01–03), redacted production captures (case 04), or concept images with placeholder values (cases 05–06).
 
 ---
 

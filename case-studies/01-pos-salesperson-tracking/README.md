@@ -44,7 +44,7 @@ res.config.settings  ──►  pos.config.allowed_salesperson_ids  (Many2many)
                     SalespersonSelector (OWL)  ──►  pos.order.line.sale_person_id
                               │
                               ▼
-                    OrderlineReceipt (t-inherit)  ──►  printed receipt
+                    Orderline (t-inherit, mode "receipt")  ──►  printed receipt
 ```
 
 ---
@@ -75,7 +75,7 @@ See [`snippets.md`](./snippets.md) for 3 small extracts demonstrating the patter
 | ![POS UI](./screenshots/02-pos-ui.png) | Cashier picking a salesperson on an order line |
 | ![Receipt](./screenshots/03-receipt.png) | Printed receipt showing "Sold by: …" under each line |
 
-🎬 [`demo.gif`](./demo.gif) — 12 sec walkthrough: open POS → add product → assign salesperson → print receipt.
+All three screenshots are from the module running on a fresh Odoo 19 database with demo data; the two salespeople on the receipt were saved on the order lines server-side.
 
 ---
 

@@ -74,6 +74,5 @@ def _envelope(self, data=None, error=None, status=200):
 - The `rate_limit` sliding-window implementation.
 - The `auth/token` endpoint that issues tokens after credential check.
 - The complete test suite (token lifecycle, 401/429 paths, CRUD flows).
-- The Postman collection and OpenAPI-style docs.
 
 These are in the full module in the private repo.
