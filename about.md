@@ -4,7 +4,7 @@
 
 I customize and extend Odoo for operational businesses — the kind of deployments where the ERP has to be right, because payroll, guest billing, or a government filing depends on it. Over **3+ years** and **500+ delivered tasks across 30+ clients**, I've worked the full lifecycle: requirements analysis, data modeling, view inheritance, security, frontend (OWL), reporting, and version migration — on versions **14 through 19**.
 
-The four case studies in this repo are the kind of problems I actually get handed: a payroll bug that only shows up at a timezone boundary, a POS requirement that looks simple until commission math gets involved, an external system that needs Odoo's data in its shape, not Odoo's. Each one is written up as **problem → constraints → decisions → what I'd change** — not a feature list, because the reasoning is the part worth reading.
+The case studies in this repo are the kind of problems I actually get handed: a payroll bug that only shows up at a timezone boundary, a POS requirement that looks simple until commission math gets involved, an external system that needs Odoo's data in its shape, not Odoo's. Each one is written up as **problem → constraints → decisions → what I'd change** — not a feature list, because the reasoning is the part worth reading.
 
 ---
 
@@ -13,6 +13,7 @@ The four case studies in this repo are the kind of problems I actually get hande
 - **HR & Payroll** — employee lifecycle, contracts, attendance-sheet logic (flexible hours, leave intervals, half-day handling), payroll rules, leave allocation. → [Case 02](./case-studies/02-hr-flexible-attendance/): a timezone-aware leave bug that turned into a lesson about atomic computed-field chains.
 - **POS Customization** — order-line extension, OWL component patching, receipt customization, per-line attribution. → [Case 01](./case-studies/01-pos-salesperson-tracking/): why `patch()` beats subclassing, and how OWL reactivity actually propagates to a receipt.
 - **Third-Party & Regulatory Integrations** — token-authenticated outbound/inbound gateways (REST, OAuth2 client-credentials), idempotent retry design, multi-entity data reporting to external and government platforms. → [Case 03](./case-studies/03-api-partner-gateway/) and [Case 04](./case-studies/04-gov-ledger-reporting-gateway/): structured error envelopes, post-commit background sends, and turning "must be instant" into an architecture that doesn't block the UI.
+- **E-commerce Payment Settlement** — Shopify → Odoo order flows, courier and payment-gateway reconciliation, idempotent invoice payment. → [Case 05](./case-studies/05-cod-courier-settlement/) and [Case 06](./case-studies/06-card-gateway-settlement/): one definition of "paid" across cash on delivery and card payments, read-only integrations, batch-safe crons.
 - **Multi-Version Migration** — Odoo 14 → 15 → 16 → 17 → 18 → 19, including breaking-API adaptation (`attrs` removal, `<tree>` → `<list>`, OWL2 → OWL3).
 - **Operational Reporting** — QWeb PDF, Excel (`xlsxwriter` / `openpyxl`), wizards.
 
