@@ -51,7 +51,7 @@ Demonstrates: the idea, not the implementation, of turning one mixed entry into 
 # Illustrative pattern only — not the production source.
 def _split_by_facility(self):
     lines_by_facility = defaultdict(list)
-    for line in self._ntmp_accounting_lines():          # (renamed for this write-up)
+    for line in self._reportable_accounting_lines():
         facility = self._resolve_facility(line)
         lines_by_facility[facility].append(line)
     return {
